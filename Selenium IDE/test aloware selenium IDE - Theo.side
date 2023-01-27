@@ -1,0 +1,283 @@
+{
+  "id": "3698170d-c70f-4a26-b445-82f21f1334d1",
+  "version": "2.0",
+  "name": "test aloware selenium IDE - Theo",
+  "url": "https://aloware.com",
+  "tests": [{
+    "id": "5463a43a-22de-4dcd-ac34-e46efc2b759c",
+    "name": "Bokking popup1  OK",
+    "commands": [{
+      "id": "09b11cc7-f87e-42f9-b021-fb17470feb5f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7971448-e35b-4d8c-80d4-d41517bb66f8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79ca84dc-1417-428f-a600-849725a0966c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.login-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://app.aloware.com/login')]", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ea65fae-c656-48d2-9f12-383df39c49e5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.login-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://app.aloware.com/login')]", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afbe6fb1-cde7-4894-a75b-7279b90cdae3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Start for Free",
+      "targets": [
+        ["linkText=Start for Free", "linkText"],
+        ["css=.start-free-btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Start for Free')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[3]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[12]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start for Free ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e57cf93-dc28-4463-84cc-9a895c89a286",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start for Free",
+      "targets": [
+        ["linkText=Start for Free", "linkText"],
+        ["css=.start-free-btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Start for Free')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[3]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[12]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start for Free ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9843a64d-d34f-451f-a45f-e421130201fd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Start for Free",
+      "targets": [
+        ["linkText=Start for Free", "linkText"],
+        ["css=.start-free-btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Start for Free')])[2]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[3]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[12]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start for Free ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a11d087-a1db-4aab-8cb3-077d4a806f19",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstname-90baad40-32f2-4992-9f98-a4d3ea6f938e",
+      "targets": [
+        ["id=firstname-90baad40-32f2-4992-9f98-a4d3ea6f938e", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname-90baad40-32f2-4992-9f98-a4d3ea6f938e", "css:finder"],
+        ["xpath=//input[@id='firstname-90baad40-32f2-4992-9f98-a4d3ea6f938e']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_90baad40-32f2-4992-9f98-a4d3ea6f938e']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b99f19cf-a0d8-4066-bcd5-98593aaf3af6",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstname-90baad40-32f2-4992-9f98-a4d3ea6f938e",
+      "targets": [
+        ["id=firstname-90baad40-32f2-4992-9f98-a4d3ea6f938e", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname-90baad40-32f2-4992-9f98-a4d3ea6f938e", "css:finder"],
+        ["xpath=//input[@id='firstname-90baad40-32f2-4992-9f98-a4d3ea6f938e']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_90baad40-32f2-4992-9f98-a4d3ea6f938e']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "test automation"
+    }, {
+      "id": "04d64c32-e713-4afc-91e2-bf0b246136c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-90baad40-32f2-4992-9f98-a4d3ea6f938e",
+      "targets": [
+        ["id=email-90baad40-32f2-4992-9f98-a4d3ea6f938e", "id"],
+        ["name=email", "name"],
+        ["css=#email-90baad40-32f2-4992-9f98-a4d3ea6f938e", "css:finder"],
+        ["xpath=//input[@id='email-90baad40-32f2-4992-9f98-a4d3ea6f938e']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_90baad40-32f2-4992-9f98-a4d3ea6f938e']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25f54fd2-6b6a-493f-aaa7-ebce5acba940",
+      "comment": "",
+      "command": "type",
+      "target": "id=email-90baad40-32f2-4992-9f98-a4d3ea6f938e",
+      "targets": [
+        ["id=email-90baad40-32f2-4992-9f98-a4d3ea6f938e", "id"],
+        ["name=email", "name"],
+        ["css=#email-90baad40-32f2-4992-9f98-a4d3ea6f938e", "css:finder"],
+        ["xpath=//input[@id='email-90baad40-32f2-4992-9f98-a4d3ea6f938e']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_90baad40-32f2-4992-9f98-a4d3ea6f938e']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "testers@gmail.com"
+    }, {
+      "id": "0c0a631b-cc03-4a0d-9fe0-048049e063af",
+      "comment": "",
+      "command": "click",
+      "target": "id=company-90baad40-32f2-4992-9f98-a4d3ea6f938e",
+      "targets": [
+        ["id=company-90baad40-32f2-4992-9f98-a4d3ea6f938e", "id"],
+        ["name=company", "name"],
+        ["css=#company-90baad40-32f2-4992-9f98-a4d3ea6f938e", "css:finder"],
+        ["xpath=//input[@id='company-90baad40-32f2-4992-9f98-a4d3ea6f938e']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_90baad40-32f2-4992-9f98-a4d3ea6f938e']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5d4e0f2-8452-4b50-a228-088a0e090733",
+      "comment": "",
+      "command": "type",
+      "target": "id=company-90baad40-32f2-4992-9f98-a4d3ea6f938e",
+      "targets": [
+        ["id=company-90baad40-32f2-4992-9f98-a4d3ea6f938e", "id"],
+        ["name=company", "name"],
+        ["css=#company-90baad40-32f2-4992-9f98-a4d3ea6f938e", "css:finder"],
+        ["xpath=//input[@id='company-90baad40-32f2-4992-9f98-a4d3ea6f938e']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_90baad40-32f2-4992-9f98-a4d3ea6f938e']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "own"
+    }, {
+      "id": "e263cf07-5f4b-45c1-a2f2-489e52a41cc3",
+      "comment": "",
+      "command": "click",
+      "target": "id=team_size-90baad40-32f2-4992-9f98-a4d3ea6f938e",
+      "targets": [
+        ["id=team_size-90baad40-32f2-4992-9f98-a4d3ea6f938e", "id"],
+        ["name=team_size", "name"],
+        ["css=#team_size-90baad40-32f2-4992-9f98-a4d3ea6f938e", "css:finder"],
+        ["xpath=//select[@id='team_size-90baad40-32f2-4992-9f98-a4d3ea6f938e']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_90baad40-32f2-4992-9f98-a4d3ea6f938e']/div[4]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e710f70f-2cc3-4399-b572-62bc130ee974",
+      "comment": "",
+      "command": "select",
+      "target": "id=team_size-90baad40-32f2-4992-9f98-a4d3ea6f938e",
+      "targets": [],
+      "value": "label=3 - 5"
+    }, {
+      "id": "6febe601-ad2c-49b5-990e-f0839587dcce",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone_ext-90baad40-32f2-4992-9f98-a4d3ea6f938e",
+      "targets": [
+        ["id=phone_ext-90baad40-32f2-4992-9f98-a4d3ea6f938e", "id"],
+        ["css=#phone_ext-90baad40-32f2-4992-9f98-a4d3ea6f938e", "css:finder"],
+        ["xpath=//select[@id='phone_ext-90baad40-32f2-4992-9f98-a4d3ea6f938e']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_90baad40-32f2-4992-9f98-a4d3ea6f938e']/div[5]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e1bf7b8-aec6-42d9-bb0b-0835c1e98b74",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone-90baad40-32f2-4992-9f98-a4d3ea6f938e",
+      "targets": [
+        ["id=phone-90baad40-32f2-4992-9f98-a4d3ea6f938e", "id"],
+        ["css=#phone-90baad40-32f2-4992-9f98-a4d3ea6f938e", "css:finder"],
+        ["xpath=//input[@id='phone-90baad40-32f2-4992-9f98-a4d3ea6f938e']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_90baad40-32f2-4992-9f98-a4d3ea6f938e']/div[5]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abeaabe7-bfa1-4b36-89a9-00dcf5ecf46c",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone-90baad40-32f2-4992-9f98-a4d3ea6f938e",
+      "targets": [
+        ["id=phone-90baad40-32f2-4992-9f98-a4d3ea6f938e", "id"],
+        ["css=#phone-90baad40-32f2-4992-9f98-a4d3ea6f938e", "css:finder"],
+        ["xpath=//input[@id='phone-90baad40-32f2-4992-9f98-a4d3ea6f938e']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_90baad40-32f2-4992-9f98-a4d3ea6f938e']/div[5]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/input", "xpath:position"]
+      ],
+      "value": "+351 999999999"
+    }, {
+      "id": "396c1d94-ac51-4a70-857c-5f1561e2b64b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hs_submit:nth-child(7) .hs-button",
+      "targets": [
+        ["css=.hs_submit:nth-child(7) .hs-button", "css:finder"],
+        ["xpath=//input[@value='Start Free Trial']", "xpath:attributes"],
+        ["xpath=//form[@id='hsForm_90baad40-32f2-4992-9f98-a4d3ea6f938e']/div[7]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a6b4d69-a9bb-41b5-b4a5-90002427f6ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clsoe-popup > .icon",
+      "targets": [
+        ["css=.clsoe-popup > .icon", "css:finder"],
+        ["xpath=//div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d13fc15b-fc4a-416c-885f-037c96b2e28c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9797d3a8-40c2-4ba7-879e-596ffda97d04",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://aloware.com/"],
+  "plugins": []
+}

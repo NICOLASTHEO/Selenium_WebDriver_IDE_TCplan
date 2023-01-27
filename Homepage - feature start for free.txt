@@ -1,0 +1,107 @@
+#FOR RECRUITERS: As a QA candidate, I must be able to identify the main resource for the client (ALOWARE) on the homepage,
+				I want to ensure that all prospective customers can register theirselves
+				So that we can build a rich list of people interested in our services
+				
+TEST CASE: SUBMIT START FOR FREE FEATURE ON HOMEPAGE
+
+As someone who wants to experience Aloware IT services
+I want to proceed with the START FOR FREE option,
+So that I can know about all the services.
+
+Scenario: On START FOR FREE, booking a presentation meeting clicking on the button "Start Free Trial"
+	Given I access the Aloware home page
+	And access START FOR FREE 
+	When I fill my registration data 
+	And click on "Start Free Trial"
+	And I book a date and time for a meeting
+	And submit my registration
+	Then I should see a message confirmation: "Booking Confirmed"
+	And the consultor's name
+	And the date/time I booked the meeting
+	
+Scenario: On START FOR FREE, booking a presentation meeting with all fields filled and press ENTER
+	Given I access the Aloware home page
+	And access START FOR FREE 
+	When I fill my registration data 
+	And press the ENTER key 
+	And I book a date and time for a meeting
+	And submit my registration
+	Then I should see a message confirmation: "Booking Confirmed"
+	And the consultor's name
+	And the date/time I booked the meeting
+
+Scenario: On START FOR FREE, booking a presentation meeting just my name
+	Given I access the Aloware home page
+	And access START FOR FREE 
+	When I fill my registration data informing just my name 
+	And click on "Start Free Trial"
+	And I book a date and time for a meeting
+	And submit my registration
+	Then I should see a message confirmation: "Booking Confirmed"
+	And the consultor's name
+	And the date/time I booked the meeting
+
+Scenario: On START FOR FREE, booking a presentation meeting with number in names's field
+	Given I access the Aloware home page
+	And access START FOR FREE 
+	When I fill my registration data by setting numbers instaed letter on names's field
+	And click on "Start Free Trial"
+	And I book a date and time for a meeting
+	And submit my registration
+	Then I should see a message confirmation: "Booking Confirmed"
+	And see the consultor's name
+	And the date/time I booked the meeting
+
+Scenario: On START FOR FREE, booking a presentation meeting without a name
+	Given I access the Aloware home page
+	And access START FOR FREE 
+	When I fill my registration data without a name
+	Then I should see the message: "Please complete this required field."
+	And if I click on "Start Free Trial", I Shouldn't be able to go on
+	
+Scenario: In START FOR FREE, booking a presentation meeting with an invalid Email
+	Given I access the Aloware home page
+	And access START FOR FREE 
+	When I fill my registration data with an invalid email
+	Then I should see the message: "Please complete this required field."
+	And if I click on "Start Free Trial", I Shouldn't be able to go on
+
+Scenario: In START FOR FREE booking a presentation meeting without an email
+	Given I access the Aloware home page
+	And access START FOR FREE 
+	When I fill my registration data without an email
+	Then I should see the message: "Please complete this required field."
+	And if I click on "Start Free Trial", I Shouldn't be able to go on
+
+Scenario: In START FOR FREE, booking a presentation meeting without a Company's name
+	Given I access the Aloware home page
+	And access START FOR FREE 
+	When I fill my registration data without a Company's name
+	Then I should see the message: "Please complete this required field."
+	And if I click on "Start Free Trial", I Shouldn't be able to go on
+
+Scenario: In START FOR FREE, booking a presentation meeting without Select a Team size
+	Given I access the Aloware home page
+	And access START FOR FREE 
+	When I fill my registration data without Select a Team size
+	Then I should see the message: "Please select an option from the dropdown menu."
+	And if I click on "Start Free Trial", I Shouldn't be able to go on
+
+Scenario: In START FOR FREE, booking a presentation meeting without inform a phone number
+	Given I access the Aloware home page
+	And access START FOR FREE 
+	When I fill my registration data without inform a phone number
+	Then I should see the message: "Please complete this required field."
+	And if I click on "Start Free Trial", I Shouldn't be able to go on
+
+#We need to discuss this scenario. I couldn't found it in the documentation, but it doesn't look good for me!
+Scenario: In START FOR FREE, booking a presentation meeting inform a phone number different then the pattern of the coutry selected
+	Given I access the Aloware home page
+	And access START FOR FREE 
+	When I fill my registration data informing a phone number different then the pattern of the coutry selected
+	And click on "Start Free Trial"
+	And I book a date and time for a meeting
+	And submit my registration
+	Then I should see a message confirmation: "Booking Confirmed"
+	And see the consultor's name
+	And the date/time I booked the meeting
