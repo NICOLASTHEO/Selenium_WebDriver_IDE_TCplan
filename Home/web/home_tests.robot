@@ -14,4 +14,5 @@ Scenario: On START FOR FREE, booking a presentation meeting clicking on the butt
     [Tags]                 booking    home    start_for_free
 	Access the Aloware home page
 	Reach START FOR FREE
-	Fill my registration data and Click on "Start Free Trial"
+	When I fill my registration data
+	And click on "Start Free Trial"

@@ -49,3 +49,4 @@ When I fill my registration data
 
 And click on "Start Free Trial"
     Click Button                      ${button_start}
+    Page Should Contain               Booking Confirmed          
