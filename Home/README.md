@@ -1,6 +1,8 @@
-# NEW PRICING TOOL VISTEX PROJECT - NPTV
+# IT'S A TEST PROJECT ON ALOWARE WEB SITE
 
 This is an automation project  for the Aloware SOFTWARE, it's with [Robot Framework](https://robotframework.org/), aims to implement the project pattern to Page Objects and test cases written with [Gherkin](https://cucumber.io/docs/gherkin/reference/) or [Procedural], at the beginning of each test there is a information in the Documentation about the methodology to be used.
+##
+The functional tests that will be executed manually in the PRD must follow the steps on the "Homepage - feature start for free.txt" file. For security reasons, All automated tests should follow this procedure as a sample template.
 
 Robot's libraries encapsulate the most used testing tools on the market. To run the GUI tests on Web systems, the selenium library is been used [Selenium](https://www.selenium.dev/). To run GUI tests on mobile systems, the [Appium](https://appium.io), at this first moment, by decision of the managers, no tests or Mobile validations will be carried out. For API tests, the library of [Python requests](https://github.com/kennethreitz/requests), which provides all the necessary tools for HTTP requests, both for REST and SOAP.
 
@@ -43,9 +45,6 @@ I'll let two ways, a zip file will besend by emmail; and in the Theo's Github, u
 To execute the scripts, execute the command below via terminal being inside the project's root directory, and passing as arguments the directory where the reports and execution logs will be inserted and the directory where the test scripts are.
 
 ```sh
-$ robot -d ..\reports  home_tests.robot
-
-And for CI (Gitlab or Jenkins)
 $ robot -i home -d ..\reports -v BROWSER:headlesschrome home_tests.robot
 ```
 

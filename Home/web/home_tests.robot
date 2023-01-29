@@ -1,5 +1,5 @@
 ***Settings***
-Documentation        This is a Test Suite for the software: https://aloware.com/
+Documentation        This is a Test Suite for the software: http://aloware.com/
 ...                  Submit my data and book a presentaion meeting
 ...                  
 Resource             home_resources.robot
@@ -16,3 +16,5 @@ Scenario: On START FOR FREE, booking a presentation meeting clicking on the butt
 	Reach START FOR FREE
 	When I fill my registration data
 	And click on "Start Free Trial"
+	I can see a msg "We can't wait to see your face!"
+	
