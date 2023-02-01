@@ -17,4 +17,3 @@ Scenario: On START FOR FREE, booking a presentation meeting clicking on the butt
 	When I fill my registration data
 	And click on "Start Free Trial"
 	I can see a msg "We can't wait to see your face!"
-	

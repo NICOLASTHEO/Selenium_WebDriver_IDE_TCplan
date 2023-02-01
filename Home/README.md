@@ -45,8 +45,9 @@ I'll let two ways, a zip file will besend by emmail; and in the Theo's Github, u
 To execute the scripts, execute the command below via terminal being inside the project's root directory, and passing as arguments the directory where the reports and execution logs will be inserted and the directory where the test scripts are.
 
 ```sh
-$ robot -i home -d ..\reports -v BROWSER:headlesschrome home_tests.robot
+$ python -m robot -d ../reports home_tests.robot
 ```
+Note: Robot had a very recent change, for it runs Now we need to inform: ' python -m ' then the regular path to make it runs.
 
 ## execution parameters ## 
 

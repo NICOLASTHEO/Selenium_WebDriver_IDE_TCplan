@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0 (Python 3.10.8 on win32)" generated="20230129 04:36:10.125" rpa="false" schemaversion="3">
+<robot generator="Robot 6.0.2 (Python 3.11.0 on win32)" generated="20230201 22:44:29.418" rpa="false" schemaversion="3">
 <suite id="s1" name="Home Tests" source="C:\Users\Theo Araujo\Desktop\Private Theo\CV\QA\testes práticos\aloware\Home\web\home_tests.robot">
 <test id="s1-t1" name="Scenario: On START FOR FREE, booking a presentation meeting clicking on the button &quot;Start Free Trial&quot;" line="11">
 <kw name="Open the browser" library="home_resources" type="SETUP">
@@ -7,140 +7,140 @@
 <arg>url=${URL}</arg>
 <arg>browser=Headless Chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20230129 04:36:10.349" level="INFO">Opening browser 'Headless Chrome' to base url 'http://aloware.com/#'.</msg>
-<status status="PASS" starttime="20230129 04:36:10.348" endtime="20230129 04:36:14.127"/>
+<msg timestamp="20230201 22:44:29.573" level="INFO">Opening browser 'Headless Chrome' to base url 'http://aloware.com/#'.</msg>
+<status status="PASS" starttime="20230201 22:44:29.572" endtime="20230201 22:44:32.974"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20230129 04:36:14.127" endtime="20230129 04:36:14.244"/>
+<status status="PASS" starttime="20230201 22:44:32.974" endtime="20230201 22:44:33.091"/>
 </kw>
-<status status="PASS" starttime="20230129 04:36:10.348" endtime="20230129 04:36:14.244"/>
+<status status="PASS" starttime="20230201 22:44:29.571" endtime="20230201 22:44:33.091"/>
 </kw>
 <kw name="Access the Aloware home page" library="home_resources">
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${logo_home}</arg>
 <arg>${timeout}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20230129 04:36:14.246" endtime="20230129 04:36:14.272"/>
+<status status="PASS" starttime="20230201 22:44:33.092" endtime="20230201 22:44:33.111"/>
 </kw>
 <kw name="Capture Element Screenshot" library="SeleniumLibrary">
 <arg>${logo_home}</arg>
 <doc>Captures a screenshot from the element identified by ``locator`` and embeds it into log file.</doc>
-<msg timestamp="20230129 04:36:14.318" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-element-screenshot-1.png"&gt;&lt;img src="selenium-element-screenshot-1.png" width="400px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20230129 04:36:14.272" endtime="20230129 04:36:14.318"/>
+<msg timestamp="20230201 22:44:33.152" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-element-screenshot-3.png"&gt;&lt;img src="selenium-element-screenshot-3.png" width="400px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230201 22:44:33.111" endtime="20230201 22:44:33.152"/>
 </kw>
-<status status="PASS" starttime="20230129 04:36:14.245" endtime="20230129 04:36:14.318"/>
+<status status="PASS" starttime="20230201 22:44:33.091" endtime="20230201 22:44:33.152"/>
 </kw>
 <kw name="Reach START FOR FREE" library="home_resources">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${start_free}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230129 04:36:14.321" level="INFO">Clicking element '//a[contains(@title,'Get a demo')]'.</msg>
-<status status="PASS" starttime="20230129 04:36:14.320" endtime="20230129 04:36:14.368"/>
+<msg timestamp="20230201 22:44:33.153" level="INFO">Clicking element '//a[contains(@title,'Get a demo')]'.</msg>
+<status status="PASS" starttime="20230201 22:44:33.153" endtime="20230201 22:44:33.191"/>
 </kw>
-<status status="PASS" starttime="20230129 04:36:14.320" endtime="20230129 04:36:14.368"/>
+<status status="PASS" starttime="20230201 22:44:33.152" endtime="20230201 22:44:33.191"/>
 </kw>
 <kw name="When I fill my registration data" library="home_resources">
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${name}</arg>
 <arg>${timeout}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20230129 04:36:14.370" endtime="20230129 04:36:15.610"/>
+<status status="PASS" starttime="20230201 22:44:33.192" endtime="20230201 22:44:34.510"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${name}</arg>
 <arg>${my_input_name}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230129 04:36:15.611" level="INFO">Typing text 'Test Automation' into text field '//input[contains(@placeholder,'Full Name*')]'.</msg>
-<status status="PASS" starttime="20230129 04:36:15.610" endtime="20230129 04:36:15.857"/>
+<msg timestamp="20230201 22:44:34.510" level="INFO">Typing text 'Test Automation' into text field '//input[contains(@placeholder,'Full Name*')]'.</msg>
+<status status="PASS" starttime="20230201 22:44:34.510" endtime="20230201 22:44:34.640"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${email}</arg>
 <arg>${my_input_email}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230129 04:36:15.858" level="INFO">Typing text 'testemail@gmail.com' into text field '//input[contains(@placeholder,'Company email*')]'.</msg>
-<status status="PASS" starttime="20230129 04:36:15.857" endtime="20230129 04:36:16.013"/>
+<msg timestamp="20230201 22:44:34.640" level="INFO">Typing text 'testemail@gmail.com' into text field '//input[contains(@placeholder,'Company email*')]'.</msg>
+<status status="PASS" starttime="20230201 22:44:34.640" endtime="20230201 22:44:34.768"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${company_name}</arg>
 <arg>${my_input_company}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230129 04:36:16.015" level="INFO">Typing text 'Own' into text field '//input[contains(@name,'company')]'.</msg>
-<status status="PASS" starttime="20230129 04:36:16.013" endtime="20230129 04:36:16.118"/>
+<msg timestamp="20230201 22:44:34.768" level="INFO">Typing text 'Own' into text field '//input[contains(@name,'company')]'.</msg>
+<status status="PASS" starttime="20230201 22:44:34.768" endtime="20230201 22:44:34.892"/>
 </kw>
 <kw name="Select From List By Value" library="SeleniumLibrary">
 <arg>${drop_b_tsize}</arg>
 <arg>${input_size}</arg>
 <doc>Selects options from selection list ``locator`` by ``values``.</doc>
-<msg timestamp="20230129 04:36:16.119" level="INFO">Selecting options from selection list '//select[contains(@class,'hs-input is-placeholder')]' by value 4 - 10.</msg>
-<status status="PASS" starttime="20230129 04:36:16.118" endtime="20230129 04:36:16.219"/>
+<msg timestamp="20230201 22:44:34.892" level="INFO">Selecting options from selection list '//select[contains(@class,'hs-input is-placeholder')]' by value 4 - 10.</msg>
+<status status="PASS" starttime="20230201 22:44:34.892" endtime="20230201 22:44:34.945"/>
 </kw>
 <kw name="Select From List By Value" library="SeleniumLibrary">
 <arg>${drop_b_c_phone}</arg>
 <arg>${my_country_phone}</arg>
 <doc>Selects options from selection list ``locator`` by ``values``.</doc>
-<msg timestamp="20230129 04:36:16.220" level="INFO">Selecting options from selection list 'phone_ext-90baad40-32f2-4992-9f98-a4d3ea6f938e' by value PT.</msg>
-<status status="PASS" starttime="20230129 04:36:16.219" endtime="20230129 04:36:16.265"/>
+<msg timestamp="20230201 22:44:34.946" level="INFO">Selecting options from selection list 'phone_ext-90baad40-32f2-4992-9f98-a4d3ea6f938e' by value PT.</msg>
+<status status="PASS" starttime="20230201 22:44:34.945" endtime="20230201 22:44:34.974"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${input_phone}</arg>
 <arg>${my_input_numcountry}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230129 04:36:16.266" level="INFO">Typing text '999999999' into text field '//input[@placeholder='*']'.</msg>
-<status status="PASS" starttime="20230129 04:36:16.265" endtime="20230129 04:36:16.389"/>
+<msg timestamp="20230201 22:44:34.974" level="INFO">Typing text '999999999' into text field '//input[@placeholder='*']'.</msg>
+<status status="PASS" starttime="20230201 22:44:34.974" endtime="20230201 22:44:35.077"/>
 </kw>
-<status status="PASS" starttime="20230129 04:36:14.369" endtime="20230129 04:36:16.390"/>
+<status status="PASS" starttime="20230201 22:44:33.192" endtime="20230201 22:44:35.077"/>
 </kw>
 <kw name="And click on &quot;Start Free Trial&quot;" library="home_resources">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${button_start}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230129 04:36:16.391" level="INFO">Clicking element '//input[contains(@value,'Start Free Trial')]'.</msg>
-<status status="PASS" starttime="20230129 04:36:16.390" endtime="20230129 04:36:16.447"/>
+<msg timestamp="20230201 22:44:35.078" level="INFO">Clicking element '//input[contains(@value,'Start Free Trial')]'.</msg>
+<status status="PASS" starttime="20230201 22:44:35.078" endtime="20230201 22:44:35.161"/>
 </kw>
-<status status="PASS" starttime="20230129 04:36:16.390" endtime="20230129 04:36:16.447"/>
+<status status="PASS" starttime="20230201 22:44:35.078" endtime="20230201 22:44:35.161"/>
 </kw>
 <kw name="I can see a msg &quot;We can't wait to see your face!&quot;" library="home_resources" sourcename="I can see a msg &quot;${book_msg}&quot;">
 <kw name="Select Frame" library="SeleniumLibrary">
 <arg>${book_pg}</arg>
 <doc>Sets frame identified by ``locator`` as the current frame.</doc>
-<msg timestamp="20230129 04:36:16.449" level="INFO">Selecting frame '//div[@class="meetings-iframe-container"]//iframe'.</msg>
-<status status="PASS" starttime="20230129 04:36:16.449" endtime="20230129 04:36:16.556"/>
+<msg timestamp="20230201 22:44:35.162" level="INFO">Selecting frame '//div[@class="meetings-iframe-container"]//iframe'.</msg>
+<status status="PASS" starttime="20230201 22:44:35.161" endtime="20230201 22:44:35.236"/>
 </kw>
 <kw name="Page Should Contain" library="SeleniumLibrary">
 <arg>${book_msg}</arg>
 <doc>Verifies that current page contains ``text``.</doc>
-<msg timestamp="20230129 04:36:16.637" level="INFO">Current page contains text 'We can't wait to see your face!'.</msg>
-<status status="PASS" starttime="20230129 04:36:16.556" endtime="20230129 04:36:16.637"/>
+<msg timestamp="20230201 22:44:35.285" level="INFO">Current page contains text 'We can't wait to see your face!'.</msg>
+<status status="PASS" starttime="20230201 22:44:35.236" endtime="20230201 22:44:35.285"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>${book_msg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230129 04:36:16.637" endtime="20230129 04:36:16.639"/>
+<status status="PASS" starttime="20230201 22:44:35.285" endtime="20230201 22:44:35.285"/>
 </kw>
-<status status="PASS" starttime="20230129 04:36:16.448" endtime="20230129 04:36:16.639"/>
+<status status="PASS" starttime="20230201 22:44:35.161" endtime="20230201 22:44:35.285"/>
 </kw>
 <kw name="Close the browser" library="home_resources" type="TEARDOWN">
 <kw name="Capture Page Screenshot" library="SeleniumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<msg timestamp="20230129 04:36:16.704" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" starttime="20230129 04:36:16.640" endtime="20230129 04:36:16.704"/>
+<msg timestamp="20230201 22:44:35.375" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20230201 22:44:35.285" endtime="20230201 22:44:35.375"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20230129 04:36:16.704" endtime="20230129 04:36:18.776"/>
+<status status="PASS" starttime="20230201 22:44:35.375" endtime="20230201 22:44:37.472"/>
 </kw>
-<status status="PASS" starttime="20230129 04:36:16.639" endtime="20230129 04:36:18.776"/>
+<status status="PASS" starttime="20230201 22:44:35.285" endtime="20230201 22:44:37.472"/>
 </kw>
 <tag>booking</tag>
 <tag>home</tag>
 <tag>start_for_free</tag>
-<status status="PASS" starttime="20230129 04:36:10.347" endtime="20230129 04:36:18.777"/>
+<status status="PASS" starttime="20230201 22:44:29.560" endtime="20230201 22:44:37.473"/>
 </test>
 <doc>This is a Test Suite for the software: http://aloware.com/
 Submit my data and book a presentaion meeting
 </doc>
-<status status="PASS" starttime="20230129 04:36:10.127" endtime="20230129 04:36:18.779"/>
+<status status="PASS" starttime="20230201 22:44:29.418" endtime="20230201 22:44:37.475"/>
 </suite>
 <statistics>
 <total>
